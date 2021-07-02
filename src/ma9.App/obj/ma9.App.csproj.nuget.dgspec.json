@@ -28,6 +28,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\paulo\\Documents\\Developer\\Projetos\\.Net\\1 - AspNet\\Livraria\\Livraria\\src\\ma9.Business\\ma9.Business.csproj": {
+                "projectPath": "C:\\Users\\paulo\\Documents\\Developer\\Projetos\\.Net\\1 - AspNet\\Livraria\\Livraria\\src\\ma9.Business\\ma9.Business.csproj"
+              },
               "C:\\Users\\paulo\\Documents\\Developer\\Projetos\\.Net\\1 - AspNet\\Livraria\\Livraria\\src\\ma9.Data\\ma9.Data.csproj": {
                 "projectPath": "C:\\Users\\paulo\\Documents\\Developer\\Projetos\\.Net\\1 - AspNet\\Livraria\\Livraria\\src\\ma9.Data\\ma9.Data.csproj"
               }
@@ -44,6 +47,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.15, )"
@@ -63,6 +70,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -123,6 +134,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.15, )"
@@ -208,6 +223,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.15, )"

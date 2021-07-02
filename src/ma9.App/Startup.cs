@@ -20,6 +20,7 @@ namespace ma9.App
         {
             services.AddContextConfiguration(Configuration);
             services.AddIdentityConfiguration();
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.ResolverDependencias();
