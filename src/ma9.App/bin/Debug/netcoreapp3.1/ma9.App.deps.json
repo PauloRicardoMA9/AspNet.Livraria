@@ -1456,12 +1456,27 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "ma9.Data/1.0.0": {
+      "ma9.Business/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.15",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.15",
           "Microsoft.AspNetCore.Identity.UI": "3.1.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15"
+        },
+        "runtime": {
+          "ma9.Business.dll": {}
+        },
+        "compile": {
+          "ma9.Business.dll": {}
+        }
+      },
+      "ma9.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.15",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.15",
+          "Microsoft.AspNetCore.Identity.UI": "3.1.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
+          "ma9.Business": "1.0.0"
         },
         "runtime": {
           "ma9.Data.dll": {}
@@ -3790,6 +3805,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "ma9.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ma9.Data/1.0.0": {
       "type": "project",

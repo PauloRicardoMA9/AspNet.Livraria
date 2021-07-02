@@ -12,6 +12,9 @@ namespace ma9.App.Configuracoes
             services.AddDbContext<MeuIdentityDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("MeuIdentityConnectionString")));
 
+            services.AddDbContext<ModelsDbContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("ModelsConnectionString")));
+
             return services;
         }
     }

@@ -8,7 +8,7 @@ namespace ma9.Business.Models
         public string Cnpj { get; set; }
 
         /* EF Relations */
-        public Endereco Endereco { get; set; }
+        public EnderecoEditora EnderecoEditora { get; set; }
         public IEnumerable<Livro> Livros { get; set; }
     }
 }

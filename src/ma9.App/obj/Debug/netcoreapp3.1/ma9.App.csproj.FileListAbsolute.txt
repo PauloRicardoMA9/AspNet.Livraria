@@ -94,3 +94,5 @@ C:\Users\paulo\Documents\Developer\Projetos\.Net\1 - AspNet\Livraria\Livraria\sr
 C:\Users\paulo\Documents\Developer\Projetos\.Net\1 - AspNet\Livraria\Livraria\src\ma9.App\obj\Debug\netcoreapp3.1\ma9.App.dll
 C:\Users\paulo\Documents\Developer\Projetos\.Net\1 - AspNet\Livraria\Livraria\src\ma9.App\obj\Debug\netcoreapp3.1\ma9.App.pdb
 C:\Users\paulo\Documents\Developer\Projetos\.Net\1 - AspNet\Livraria\Livraria\src\ma9.App\obj\Debug\netcoreapp3.1\ma9.App.genruntimeconfig.cache
+C:\Users\paulo\Documents\Developer\Projetos\.Net\1 - AspNet\Livraria\Livraria\src\ma9.App\bin\Debug\netcoreapp3.1\ma9.Business.dll
+C:\Users\paulo\Documents\Developer\Projetos\.Net\1 - AspNet\Livraria\Livraria\src\ma9.App\bin\Debug\netcoreapp3.1\ma9.Business.pdb

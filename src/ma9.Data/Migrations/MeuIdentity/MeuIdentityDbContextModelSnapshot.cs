@@ -3,17 +3,15 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ma9.Data.Contexts;
 
-namespace ma9.Data.Migrations
+namespace ma9.Data.Migrations.MeuIdentity
 {
     [DbContext(typeof(MeuIdentityDbContext))]
-    [Migration("20210702180217_MeuIdentityDbContext.MigracaoInicial")]
-    partial class MeuIdentityDbContextMigracaoInicial
+    partial class MeuIdentityDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

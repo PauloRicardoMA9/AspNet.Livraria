@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ma9.Data.Migrations
+namespace ma9.Data.Migrations.MeuIdentity
 {
-    public partial class MeuIdentityDbContextMigracaoInicial : Migration
+    public partial class MeuIdentityInicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

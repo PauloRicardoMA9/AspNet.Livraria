@@ -2,5 +2,6 @@
 {
     public class Funcionario : Pessoa
     {
+        public EnderecoFuncionario EnderecoFuncionario { get; set; }
     }
 }
